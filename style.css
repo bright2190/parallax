@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+
+.first_div{
+    background: url("./img/2nd_flower_1.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.first_div_textbox {
+    display: inline-block;
+    
+    margin-top: 300px;
+    margin-left: 50px;
+    padding: 10px;
+    
+}
+.first_div_textbox div{
+    color: rgb(215,180,246);
+    font-size: 70px;
+    text-align: center;
+
+   
+}
+
+.second_div{
+    background: rgb(215,180,246) ;
+    background: url("./img/leaning1.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 700px;
+    display: flex;
+}
+
+.login{
+    background: rgb(34,12,33);
+    width: 100%;
+    color: azure;
+    width: 45%;
+    margin-left: 50%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    
+
+}
+
+.second_div form{
+    margin-top: 10%;
+}
+form div{
+    margin-top: 40px;
+}
+
+.login form label, input {
+    display: block;
+    width: 80%;  
+    padding: 10px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: large;
+    border-radius: 3px;
+    
+    
+}
+
+
+.input_text:focus-within{
+   border: 1px solid rgb(73, 32, 71);   
+}
+
+.btn{
+    margin-top: 26px;
+    width: 83%;
+    border-radius: 3px;
+    background: rgb(215,180,246);
+}
+.btn:hover{
+    background: rgb(73, 32, 71) ;
+    cursor: pointer;
+   
+}
+a{
+    text-decoration: none;
+}
+
+.third_div{
+    background: rgb(34,12,33);
+    
+    
+}
+
+
+.sign_up{
+    padding-top: 50px;
+
+    background: rgb(15, 2, 26) ;
+    padding-bottom: 50px;
+}
+
+
+
+
+.sign_up form >label,.sign_up form > input{
+    display: block;
+    width: 80%;
+    /* margin-top: 10px; */
+    /* margin-left: 20px; */
+    padding: 10px;
+    
+    margin: 0px auto;
+    text-align: center;
+    font-size: large;
+    border-radius: 3px;
+    
+    width: 50%;
+    border-radius: 3px;
+    
+
+}
+
+.sign_up label{
+    color: antiquewhite;
+}
+.sign_up input{
+    background: rgb(238, 208, 208)
+}
+
+.btn2{
+    
+    width: 60%;
+    margin: 35px auto;
+    
+}
+
+.btn2 input{
+    background: rgb(238, 208, 208);
+    font-size: larger;
+    
+}
+.btn2 input:hover{
+    background: rgb(82, 12, 82);
+}
+
